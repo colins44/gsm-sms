@@ -41,3 +41,5 @@ delete_all_sms()
 to delete just the read sms's from the sim card:
 
 delete_read_sms()
+
+Software is free to do as you wish with, a very simple script enjoy
