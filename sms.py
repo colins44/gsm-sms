@@ -16,6 +16,7 @@ ser.open()
 
 ## Important understand the difference between PDU and text mode, in PDU istructions are sent to the port as numbers eg: 0,1,2,3,4 and in TEXT mode as text eg: "ALL", "REC READ" etc
 ## following line sets port into text mode, all instructions have to be sent to port as text not number
+ser.write('AT+CMGS=1\r\n')
 ##Important positive responses from the modem are always returned as OK
 
 ##you may want to set a sleep timer between sending texts of a few seconds to help the system process
